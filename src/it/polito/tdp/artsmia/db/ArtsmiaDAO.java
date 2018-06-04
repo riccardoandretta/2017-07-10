@@ -14,7 +14,7 @@ public class ArtsmiaDAO {
 
 	public List<ArtObject> listObjects() {
 
-		String sql = "SELECT * from objects ";
+		String sql = "SELECT * from objects";
 		List<ArtObject> result = new ArrayList<>();
 		Connection conn = DBConnect.getConnection();
 
